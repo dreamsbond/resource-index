@@ -1,0 +1,38 @@
+{
+  "name": "dreamsbond/resource-index",
+  "description": "",
+  "type": "library",
+  "homepage": "https://github.com/dreamsbond/resource-index",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "dreamsbond",
+      "email": "info@dreamsbond.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/dreamsbond/resource-index/issues",
+    "source": "https://github.com/dreamsbond/resource-index"
+  },
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.0",
+    "phpunit/phpunit": "^7.0",
+    "squizlabs/php_codesniffer": "^3.3"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Dreamsbond\\ResourceIndex\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dreamsbond\\ResourceIndex\\": "tests/"
+    }
+  }
+}
